@@ -10,4 +10,23 @@ public class Calculadora {
 		double resultado = valor1 - valor2;
 		return resultado;
 	}
+	
+	public double multiplicar(double valor1, double valor2) {
+		double resultado = valor1 * valor2;
+		return resultado;
+	}
+	
+	public double dividir( double dividendo, double divisor) {
+		double resultado = dividendo / divisor;
+		return resultado;
+	}
+	
+	public double promedio(double valor1, double valor2, double valor3) {
+		double resultado= (valor1+valor2+valor3)/3;
+		return resultado;
+	}
+	
+	public void mostrarResultado() {
+		System.out.println("Ahorita no joven, Sali al almuerzo. Regreso en 15 minutos");
+	}
 }
