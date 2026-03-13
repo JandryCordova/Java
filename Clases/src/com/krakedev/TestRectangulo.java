@@ -3,8 +3,11 @@ package com.krakedev;
 public class TestRectangulo {
 
 	public static void main(String[] args) {
-		Rectangulo r1 = new Rectangulo();
-		Rectangulo r2 = new Rectangulo();
+		Rectangulo r1 = new Rectangulo(5,6);
+		Rectangulo r2 = new Rectangulo(10,2);
+		
+		System.out.println("Base: "+r1.getBase()+" y Alttura: "+r1.getAltura());
+		System.out.println("Base: "+r2.getBase()+" y Alttura: "+r2.getAltura());
 		
 		r1.setBase(10);
 		r1.setAltura(5);

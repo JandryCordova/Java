@@ -3,9 +3,13 @@ package com.krakedev;
 public class TestCuadrado {
 
 	public static void main(String[] args) {
-		Cuadrado c1 = new Cuadrado();
-		Cuadrado c2 = new Cuadrado();
-		Cuadrado c3 = new Cuadrado();
+		Cuadrado c1 = new Cuadrado(5);
+		Cuadrado c2 = new Cuadrado(10);
+		Cuadrado c3 = new Cuadrado(15);
+		
+		System.out.println("El lado del cuadrado es: "+c1.getLado());
+		System.out.println("El lado del cuadrado es: "+c2.getLado());
+		System.out.println("El lado del cuadrado es: "+c3.getLado());
 		
 		c1.setLado(5);
 		c2.setLado(10);
