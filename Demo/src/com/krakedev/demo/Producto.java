@@ -6,7 +6,7 @@ public class Producto {
 	private String descripcion;
 	private double peso;
 	
-	public Producto (int codigo, String nombre) {
+	public Producto ( int codigo, String nombre) {
 		this.codigo=codigo;
 		this.nombre=nombre;
 	}
@@ -21,17 +21,18 @@ public class Producto {
 	
 	public String getDescripcion() {
 		return descripcion;
+		
 	}
 	
 	public double getPeso() {
 		return peso;
 	}
 	
-	public void setCodigo(int codigo) {
+	public void setCodigo( int codigo) {
 		this.codigo=codigo;
 	}
 	
-	public void setNombre(String nombre) {
+	public void setNombre( String nombre) {
 		this.nombre=nombre;
 	}
 	
@@ -39,9 +40,8 @@ public class Producto {
 		this.descripcion=descripcion;
 	}
 	
-	public void setPeso(double peso) {
+	public void setPeso( double peso) {
 		this.peso=peso;
 	}
-	
-	
 }
+
