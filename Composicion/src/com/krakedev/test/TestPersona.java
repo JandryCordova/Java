@@ -7,10 +7,12 @@ public class TestPersona {
 
 	public static void main(String[] args) {
 		Persona persona1 = new Persona ();
+		Persona persona2 = new Persona ();
 		persona1.setNombre("Jandry");
 		persona1.setApellido("Cordova");
 		persona1.setEdad(15);
 		persona1.setEstatura(1.96);
+		persona2.setNombre("Juanita");
 		Direccion direccion1 = new Direccion();
 		direccion1.setCallePrimaria("Siempre Cruza");
 		direccion1.setCalleSecundaria("Por la callesita");
@@ -35,7 +37,8 @@ public class TestPersona {
 		System.out.println("Latitud: "+dir.getLatitud());
 		System.out.println("Longitud: "+dir.getLongitud());
 		System.out.println("************************************");
-		System.out.println("Direccion: "+dir);
+		persona1.imprimir();
+		persona2.imprimir();
 	}
 
 }
