@@ -45,11 +45,11 @@ public class Estudiante {
 		this.semestre = semestre;
 	}
 	
-	public void presentar(String nombre, String carrera, int semestre) {
+	public void presentar() {
 		System.out.println("Hola, Soy "+nombre+", estudiante de "+carrera+" en el semestre "+semestre);
 	}
 	
-	public void estudiar(String nombre, String matricula) {
+	public void estudiar() {
 		System.out.println("El estudiante "+nombre+" (Matricula: "+matricula+") esta estudiando para sus examenes");
 	}
 	

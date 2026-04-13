@@ -29,9 +29,13 @@ public class Laboratorio {
 		this.equiposEncendidos = equiposEncendidos;
 	}
 	
-	public void abrirLaboratorio(String nombreLab) {
+	public void abrirLaboratorio() {
 		equiposEncendidos=true;
 		System.out.println("El laboratorio "+nombreLab+" ha sido abierto. ¿Equipos Encendidos? "+equiposEncendidos);
+	}
+	
+	public void mostrarInformacion() {
+		System.out.println("--Info Lab:"+nombreLab+" | Capacidad: "+capacidad+" personas ---");
 	}
 	
 	
